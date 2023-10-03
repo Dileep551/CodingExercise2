@@ -2,9 +2,9 @@ public class FirstLastDigitSum {
 
     public static int sumFirstAndLastDigit(int number){
 
-        int lastDigit = number % 10;
-
         if(number >= 0) {
+
+            int lastDigit = number % 10;
 
             while (number > 9) {
 
@@ -15,6 +15,8 @@ public class FirstLastDigitSum {
             return lastDigit + number;
         }
 
-        else return -1;
+        else {
+            return -1;
+        }
     }
 }

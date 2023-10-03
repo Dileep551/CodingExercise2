@@ -12,13 +12,7 @@ public class LastDigitChecker {
            lastDigitNum2 = num2 % 10;
            lastDigitNum3 = num3 % 10;
 
-           if(lastDigitNum1 == lastDigitNum2 || lastDigitNum2 == lastDigitNum3 || lastDigitNum1 == lastDigitNum3 ){
-
-               return true;
-           }
-
-           else
-               return false;
+            return lastDigitNum1 == lastDigitNum2 || lastDigitNum2 == lastDigitNum3 || lastDigitNum1 == lastDigitNum3;
 
 
         }

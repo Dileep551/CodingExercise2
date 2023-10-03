@@ -1,4 +1,9 @@
 public class FactorPrinter {
+
+    public static void main(String[] args) {
+
+        printFactors(120);
+    }
     public static void printFactors(int number){
 
         if(number < 1){
