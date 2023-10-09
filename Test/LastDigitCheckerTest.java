@@ -8,16 +8,16 @@ class LastDigitCheckerTest {
     void hasSameLastDigit() {
 
         //Given
-        var num1 = LastDigitChecker.hasSameLastDigit(993,13,14);
-        var num2 = LastDigitChecker.hasSameLastDigit(13,0,9999);
-        var num3 = LastDigitChecker.hasSameLastDigit(-12,13,14);
+        var isLastDigit1 = LastDigitChecker.hasSameLastDigit(993,13,14);
+        var isLastDigit2 = LastDigitChecker.hasSameLastDigit(13,0,9999);
+        var isLastDigit3 = LastDigitChecker.hasSameLastDigit(-12,13,14);
 
         //When
 
         //Then
-        assertTrue(num1);
-        assertFalse(num2);
-        assertFalse(num3);
+        assertTrue(isLastDigit1);
+        assertFalse(isLastDigit2);
+        assertFalse(isLastDigit3);
 
 
     }

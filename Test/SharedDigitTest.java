@@ -12,6 +12,7 @@ class SharedDigitTest {
         var num2 = SharedDigit.hasSharedDigit(9,99);
         var num3 = SharedDigit.hasSharedDigit(0,0);
         var num4 = SharedDigit.hasSharedDigit(12,23);
+        var num5 = SharedDigit.hasSharedDigit(13,22);
 
         //When
 
@@ -20,6 +21,7 @@ class SharedDigitTest {
         assertFalse(num2);
         assertFalse(num3);
         assertTrue(num4);
+        assertFalse(num5);
 
 
     }

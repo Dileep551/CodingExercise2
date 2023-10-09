@@ -13,7 +13,7 @@ public class GreatestCommonDivisor {
             else
                 value = second;
 
-            for(value = value; value > 1; value--){
+            for(; value > 1; value--){
 
                 if(first % value== 0 && second % value == 0)
                     return value;

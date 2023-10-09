@@ -10,7 +10,7 @@ class FirstLastDigitSumTest {
         var number = 364;
         var number1 = 0;
         var number2 = -22;
-        var number3 = 202;
+        var number3 = 2000002;
 
         // When (Act)
         var sum = FirstLastDigitSum.sumFirstAndLastDigit(number);
